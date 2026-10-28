@@ -1,0 +1,10 @@
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install opencv-python
+python -m pip install pytesseract
+sudo apt install tesseract-ocr
+python main.py
+
+
+si txt fr :
+sudo apt install tesseract-ocr-fra
